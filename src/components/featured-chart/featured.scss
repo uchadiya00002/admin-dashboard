@@ -37,9 +37,34 @@ padding: 10px;
     }
     .desc{
         font-weight: 300;
-        font-size: 12px;
+        font-size: 15px;
         color:gray;
         text-align: center;
+    }
+    .summary{
+        width: 100%;
+        display: flex;align-items: center;justify-content: space-between;
+   
+   .item{
+    text-align: center;
+    .itemTitle{
+        font-size: 14px;
+        color: gray;
+    }
+    .itemResult{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+
+        &.positive{
+            color: green;
+        }
+        &.negative{
+            color: red;
+        }
+    }
+   }
     }
 }
 
